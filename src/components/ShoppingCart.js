@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ScCartCheckout } from "./scParts";
 import { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
+import { localStorageStateOku } from "../App";
 
 // Components
 import Item from "./ShoppingCartItem";
